@@ -1,0 +1,132 @@
+@font-face {
+
+	font-family: "luculent";
+  src: url(luculent.ttf);
+}
+
+
+body {
+	padding: 0; 
+	background-color: #bcc2e4;
+	font-family: 'luculent';
+
+} 
+
+.container {
+		max-width: 700px;
+		margin: auto;
+		text-align: center;
+
+}
+
+
+header {
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #9a87a5;
+;
+}
+
+p {
+	color: #9a87a5;
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.instructions {
+	float: right;
+	text-align: right;
+			margin-top: 7px;
+
+
+}
+
+.instructions p {
+		font-size: 10px;
+
+}
+#players {
+	z-index: 2;
+	margin-top: 37px;
+	height: 400px;
+	width: 7px;
+	background-color: #bcc2e4;
+	position: absolute;
+	display: none;
+	left: 50%;
+}
+
+
+  #p5-sketch {
+	z-index: 1;
+  	width: 700px;
+  	margin-top: 50px;
+  	margin-left: auto;
+	margin-right: auto;
+/*  	margin: auto;
+*/  	cursor: url("img/drawcursor.png");
+  	}
+
+
+#button {
+
+	margin-top: 10px;
+	float: right;
+}
+
+.choice p{
+
+	display: inline;
+}
+
+.setup p{
+display: inline-block;
+		vertical-align: top;
+
+
+}
+
+.setup {
+	margin-left: auto;
+	margin-right: auto;
+float: left;
+		user-select: none;
+
+}
+
+.inspo{
+	border: solid .5px #9a87a5;
+	background-color: #bcc2e4;
+	padding: 5px;
+	height:30px;
+	width: 150px;
+}
+
+.gamemode {
+		border: solid .5px #9a87a5;
+			background-color: #bcc2e4;
+
+	padding: 5px;
+	height: 30px;
+	width: 150px;
+}
+
+
+.interact {
+	color: #ffea3d;
+	cursor:pointer;
+}
+
+.interact:hover {
+
+	color:black;
+
+}
+
+
+
+@media (max-width:605px) {
+	#players {
+		margin-top: 94px;
+	}
+}
